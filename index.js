@@ -25,6 +25,7 @@ function decodeGoogleApiURL(rawURL) {
 
 function executeDownloader(downloader, urls) {
     const args = urls.map(url => url.toString());
+    console.log(util.format('Downloading %s ...', args.join(' ')));
     execFile(downloader, args, (error, stdout, stderr) => {
         if (error) {
             exitError(error);
