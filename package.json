@@ -1,0 +1,15 @@
+{
+    "name": "gdv-dl",
+    "version": "0.0.1",
+    "description": "Download video from Google Drive API url",
+    "author": "user",
+    "license": "MIT",
+
+    "main": "index.js",
+    "preferGlobal": true,
+
+    "main": "index.js",
+    "bin": {
+        "gdv-dl": "./index.js"
+    }
+}
